@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8452179220BE0242002F0FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452179120BE0242002F0FAA /* AppDelegate.swift */; };
+		8452179420BE0242002F0FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452179320BE0242002F0FAA /* ViewController.swift */; };
+		8452179620BE0242002F0FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8452179520BE0242002F0FAA /* Assets.xcassets */; };
+		8452179920BE0242002F0FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8452179720BE0242002F0FAA /* Main.storyboard */; };
+		845217A420BE0242002F0FAA /* Dark_Mode_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845217A320BE0242002F0FAA /* Dark_Mode_SwitcherTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845217A020BE0242002F0FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8452178620BE0242002F0FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8452178D20BE0242002F0FAA;
+			remoteInfo = "Dark Mode Switcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8452178E20BE0242002F0FAA /* Dark Mode Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Mode Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8452179120BE0242002F0FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8452179320BE0242002F0FAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8452179520BE0242002F0FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8452179820BE0242002F0FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8452179A20BE0242002F0FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8452179F20BE0242002F0FAA /* Dark Mode SwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dark Mode SwitcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845217A320BE0242002F0FAA /* Dark_Mode_SwitcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dark_Mode_SwitcherTests.swift; sourceTree = "<group>"; };
+		845217A520BE0242002F0FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8452178B20BE0242002F0FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452179C20BE0242002F0FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8452178520BE0242002F0FAA = {
+			isa = PBXGroup;
+			children = (
+				8452179020BE0242002F0FAA /* Dark Mode Switcher */,
+				845217A220BE0242002F0FAA /* Dark Mode SwitcherTests */,
+				8452178F20BE0242002F0FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8452178F20BE0242002F0FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8452178E20BE0242002F0FAA /* Dark Mode Switcher.app */,
+				8452179F20BE0242002F0FAA /* Dark Mode SwitcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8452179020BE0242002F0FAA /* Dark Mode Switcher */ = {
+			isa = PBXGroup;
+			children = (
+				8452179120BE0242002F0FAA /* AppDelegate.swift */,
+				8452179320BE0242002F0FAA /* ViewController.swift */,
+				8452179520BE0242002F0FAA /* Assets.xcassets */,
+				8452179720BE0242002F0FAA /* Main.storyboard */,
+				8452179A20BE0242002F0FAA /* Info.plist */,
+			);
+			path = "Dark Mode Switcher";
+			sourceTree = "<group>";
+		};
+		845217A220BE0242002F0FAA /* Dark Mode SwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				845217A320BE0242002F0FAA /* Dark_Mode_SwitcherTests.swift */,
+				845217A520BE0242002F0FAA /* Info.plist */,
+			);
+			path = "Dark Mode SwitcherTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8452178D20BE0242002F0FAA /* Dark Mode Switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845217A820BE0242002F0FAA /* Build configuration list for PBXNativeTarget "Dark Mode Switcher" */;
+			buildPhases = (
+				8452178A20BE0242002F0FAA /* Sources */,
+				8452178B20BE0242002F0FAA /* Frameworks */,
+				8452178C20BE0242002F0FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dark Mode Switcher";
+			productName = "Dark Mode Switcher";
+			productReference = 8452178E20BE0242002F0FAA /* Dark Mode Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8452179E20BE0242002F0FAA /* Dark Mode SwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845217AB20BE0242002F0FAA /* Build configuration list for PBXNativeTarget "Dark Mode SwitcherTests" */;
+			buildPhases = (
+				8452179B20BE0242002F0FAA /* Sources */,
+				8452179C20BE0242002F0FAA /* Frameworks */,
+				8452179D20BE0242002F0FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845217A120BE0242002F0FAA /* PBXTargetDependency */,
+			);
+			name = "Dark Mode SwitcherTests";
+			productName = "Dark Mode SwitcherTests";
+			productReference = 8452179F20BE0242002F0FAA /* Dark Mode SwitcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8452178620BE0242002F0FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ben Leggiero";
+				TargetAttributes = {
+					8452178D20BE0242002F0FAA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 26UDQ2545K;
+						ProvisioningStyle = Automatic;
+					};
+					8452179E20BE0242002F0FAA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 26UDQ2545K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8452178D20BE0242002F0FAA;
+					};
+				};
+			};
+			buildConfigurationList = 8452178920BE0242002F0FAA /* Build configuration list for PBXProject "Dark Mode Switcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8452178520BE0242002F0FAA;
+			productRefGroup = 8452178F20BE0242002F0FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8452178D20BE0242002F0FAA /* Dark Mode Switcher */,
+				8452179E20BE0242002F0FAA /* Dark Mode SwitcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8452178C20BE0242002F0FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452179620BE0242002F0FAA /* Assets.xcassets in Resources */,
+				8452179920BE0242002F0FAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452179D20BE0242002F0FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8452178A20BE0242002F0FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8452179420BE0242002F0FAA /* ViewController.swift in Sources */,
+				8452179220BE0242002F0FAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8452179B20BE0242002F0FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845217A420BE0242002F0FAA /* Dark_Mode_SwitcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845217A120BE0242002F0FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8452178D20BE0242002F0FAA /* Dark Mode Switcher */;
+			targetProxy = 845217A020BE0242002F0FAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8452179720BE0242002F0FAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8452179820BE0242002F0FAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845217A620BE0242002F0FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845217A720BE0242002F0FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		845217A920BE0242002F0FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26UDQ2545K;
+				INFOPLIST_FILE = "Dark Mode Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.benleggiero.Dark-Mode-Switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		845217AA20BE0242002F0FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26UDQ2545K;
+				INFOPLIST_FILE = "Dark Mode Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.benleggiero.Dark-Mode-Switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		845217AC20BE0242002F0FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26UDQ2545K;
+				INFOPLIST_FILE = "Dark Mode SwitcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.benleggiero.Dark-Mode-SwitcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dark Mode Switcher.app/Contents/MacOS/Dark Mode Switcher";
+			};
+			name = Debug;
+		};
+		845217AD20BE0242002F0FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 26UDQ2545K;
+				INFOPLIST_FILE = "Dark Mode SwitcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.benleggiero.Dark-Mode-SwitcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dark Mode Switcher.app/Contents/MacOS/Dark Mode Switcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8452178920BE0242002F0FAA /* Build configuration list for PBXProject "Dark Mode Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845217A620BE0242002F0FAA /* Debug */,
+				845217A720BE0242002F0FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845217A820BE0242002F0FAA /* Build configuration list for PBXNativeTarget "Dark Mode Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845217A920BE0242002F0FAA /* Debug */,
+				845217AA20BE0242002F0FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		845217AB20BE0242002F0FAA /* Build configuration list for PBXNativeTarget "Dark Mode SwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845217AC20BE0242002F0FAA /* Debug */,
+				845217AD20BE0242002F0FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8452178620BE0242002F0FAA /* Project object */;
+}
