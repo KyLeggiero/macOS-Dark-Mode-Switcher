@@ -14,7 +14,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        let currentAppearance = AppleInterfaceStyle.current.appearance
+        
+        NSApp.windows.forEach {
+            $0.titlebarAppearsTransparent = true
+            $0.appearance = currentAppearance
+        }
+        
+        AppleInterfaceStyle.listenForChanges { newStyle in
+            let newAppearance = newStyle.appearance
+            
+            NSApp.windows.forEach {
+                $0.appearance = newAppearance
+            }
+        }
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -23,4 +36,3 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
 }
-

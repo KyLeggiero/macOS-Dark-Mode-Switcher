@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8438A06220C587F000E76CBB /* AppleInterfaceStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438A06120C587F000E76CBB /* AppleInterfaceStyle.swift */; };
 		8452179220BE0242002F0FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452179120BE0242002F0FAA /* AppDelegate.swift */; };
 		8452179420BE0242002F0FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452179320BE0242002F0FAA /* ViewController.swift */; };
 		8452179620BE0242002F0FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8452179520BE0242002F0FAA /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8438A06120C587F000E76CBB /* AppleInterfaceStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleInterfaceStyle.swift; sourceTree = "<group>"; };
 		8452178E20BE0242002F0FAA /* Dark Mode Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Mode Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8452179120BE0242002F0FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8452179320BE0242002F0FAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				8452179520BE0242002F0FAA /* Assets.xcassets */,
 				8452179720BE0242002F0FAA /* Main.storyboard */,
 				8452179A20BE0242002F0FAA /* Info.plist */,
+				8438A06120C587F000E76CBB /* AppleInterfaceStyle.swift */,
 			);
 			path = "Dark Mode Switcher";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				8452179420BE0242002F0FAA /* ViewController.swift in Sources */,
 				8452179220BE0242002F0FAA /* AppDelegate.swift in Sources */,
+				8438A06220C587F000E76CBB /* AppleInterfaceStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +407,7 @@
 				845217AA20BE0242002F0FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845217AB20BE0242002F0FAA /* Build configuration list for PBXNativeTarget "Dark Mode SwitcherTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +416,7 @@
 				845217AD20BE0242002F0FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
