@@ -13,6 +13,7 @@
 		8452179620BE0242002F0FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8452179520BE0242002F0FAA /* Assets.xcassets */; };
 		8452179920BE0242002F0FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8452179720BE0242002F0FAA /* Main.storyboard */; };
 		845217A420BE0242002F0FAA /* Dark_Mode_SwitcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845217A320BE0242002F0FAA /* Dark_Mode_SwitcherTests.swift */; };
+		B59B3395216ECADD007D47CA /* NSAppearance Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B3394216ECADD007D47CA /* NSAppearance Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8452179F20BE0242002F0FAA /* Dark Mode SwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dark Mode SwitcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845217A320BE0242002F0FAA /* Dark_Mode_SwitcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dark_Mode_SwitcherTests.swift; sourceTree = "<group>"; };
 		845217A520BE0242002F0FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59B3394216ECADD007D47CA /* NSAppearance Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAppearance Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,13 @@
 		8452179020BE0242002F0FAA /* Dark Mode Switcher */ = {
 			isa = PBXGroup;
 			children = (
+				8438A06120C587F000E76CBB /* AppleInterfaceStyle.swift */,
+				B59B3394216ECADD007D47CA /* NSAppearance Extensions.swift */,
 				8452179120BE0242002F0FAA /* AppDelegate.swift */,
 				8452179320BE0242002F0FAA /* ViewController.swift */,
 				8452179520BE0242002F0FAA /* Assets.xcassets */,
 				8452179720BE0242002F0FAA /* Main.storyboard */,
 				8452179A20BE0242002F0FAA /* Info.plist */,
-				8438A06120C587F000E76CBB /* AppleInterfaceStyle.swift */,
 			);
 			path = "Dark Mode Switcher";
 			sourceTree = "<group>";
@@ -141,17 +144,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Ben Leggiero";
 				TargetAttributes = {
 					8452178D20BE0242002F0FAA = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 26UDQ2545K;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					8452179E20BE0242002F0FAA = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 26UDQ2545K;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8452178D20BE0242002F0FAA;
 					};
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8452179420BE0242002F0FAA /* ViewController.swift in Sources */,
+				B59B3395216ECADD007D47CA /* NSAppearance Extensions.swift in Sources */,
 				8452179220BE0242002F0FAA /* AppDelegate.swift in Sources */,
 				8438A06220C587F000E76CBB /* AppleInterfaceStyle.swift in Sources */,
 			);
@@ -246,15 +250,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -283,6 +295,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -296,15 +309,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -325,6 +346,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -332,13 +354,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 26UDQ2545K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Dark Mode Switcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.benleggiero.Dark-Mode-Switcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -346,13 +369,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 26UDQ2545K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Dark Mode Switcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.benleggiero.Dark-Mode-Switcher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -367,7 +391,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.benleggiero.Dark-Mode-SwitcherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dark Mode Switcher.app/Contents/MacOS/Dark Mode Switcher";
 			};
 			name = Debug;
@@ -383,7 +408,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.benleggiero.Dark-Mode-SwitcherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dark Mode Switcher.app/Contents/MacOS/Dark Mode Switcher";
 			};
 			name = Release;

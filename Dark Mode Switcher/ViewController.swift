@@ -16,14 +16,16 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        AppleInterfaceStyle.listenForChanges { newStyle in
+        AppleInterfaceStyle.listenForChanges(alsoCallNow: true) { newStyle in
             switch newStyle {
             case .light:
-                self.darkModeCheckBox.state = NSOffState
+                self.darkModeCheckBox.state = .off
                 
             case .dark:
-                self.darkModeCheckBox.state = NSOnState
+                self.darkModeCheckBox.state = .on
             }
+            
+            return .continueListeningForChanges
         }
     }
 
@@ -35,10 +37,10 @@ class ViewController: NSViewController {
     
     
     @IBAction func didChangeDarkModeCheckbox(_ sender: NSButton) {
-        let newState: AppleInterfaceStyle = NSOnState == sender.state ? .dark : .light
+        let newState: AppleInterfaceStyle = (.on == sender.state ? .dark : .light)
         AppleInterfaceStyle.current = newState
         
-        sender.window?.appearance = newState.appearance
+        sender.window?.appearance = newState.appearance(vibrant: true)
     }
 }
 
