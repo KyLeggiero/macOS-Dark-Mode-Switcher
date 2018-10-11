@@ -14,7 +14,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        let currentAppearance = AppleInterfaceStyle.current.appearance
+        let currentAppearance = AppleInterfaceStyle.current.appearance(vibrant: true)
         
         NSApp.windows.forEach {
             $0.titlebarAppearsTransparent = true
@@ -22,11 +22,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         
         AppleInterfaceStyle.listenForChanges { newStyle in
-            let newAppearance = newStyle.appearance
+            let newAppearance = newStyle.appearance(vibrant: true)
             
             NSApp.windows.forEach {
                 $0.appearance = newAppearance
             }
+            
+            return .continueListeningForChanges
         }
     }
 
